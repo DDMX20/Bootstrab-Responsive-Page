@@ -1,0 +1,87 @@
+*
+{margin: 0px;
+padding:0px;
+
+
+}
+
+.brand{
+  color:white;
+  font-weight: bold;
+}
+
+#header{
+
+  font-weight: bold;
+  background-image: linear-gradient(to top , rgba(0, 8, 247,0), rgba(51, 53, 54,.15));
+  height:100px;
+  padding-top: 10px;
+  font-family: 'Krona One', sans-serif;
+
+}
+.navbar-nav .nav-link{
+  position: relative;
+  text-align: center;
+}
+#link {
+  color: White;
+  font-size: 25px;
+}
+
+.navbar-toggle{
+background-color: white;
+}
+
+.row .card-body{
+background-image: linear-gradient(to top left, rgba(0, 8, 247,0), rgba(0, 8, 247,.30));
+margin : 25px 10px 10px 10px;
+  padding:0px;
+  text-align: center;
+  border:1px solid black;
+font-size: 10px;
+
+}
+
+#pa,#pb,#pc{
+  position: relative;
+  float: right;
+  border-left:1px solid black;
+  border-bottom:1px solid black;
+  border-right:1px solid black;
+  justify-content: center;
+  /* margin: 0px 45% 10px 55%; */
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+
+}
+#pa{  background-color: rgba(245, 245, 0,.75);
+}
+#pa:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#pb{  background-color: rgba(245, 245, 0,.75);
+}
+#pb:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#pc{  background-color: rgba(245, 245, 0,.75);
+}
+#pc:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#p1 ,#p2, #p3{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+@media  (min-width: 768px) {
+  .navbar-toggle{
+    display:none;
+  }
+  .collapsing {
+        overflow: hidden!important;
+    }
+
+ }
